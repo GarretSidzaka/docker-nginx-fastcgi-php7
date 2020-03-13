@@ -16,6 +16,6 @@ COPY run-server /usr/local/bin
 
 VOLUME ["/var/www/app"]
 
-EXPOSE 80 443
+EXPOSE 80
 
 CMD ["run-server"]
